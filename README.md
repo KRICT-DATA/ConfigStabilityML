@@ -13,6 +13,8 @@
 
 2. Code for model training/prediction
 
+** All trained model parameters could be found at https://doi.org/10.6084/m9.figshare.22649596.v1
+
 - script_train.py [model_type] [num_dat] [random_seed]; it will generate directory name of [model_type] under directory  RandomSeed_[random_seed], same as [path_pref] used in script_predict.py
 - script_predict.py [model_type] [is_test] [path_pref] [num_dat]; it will generate Predicted_[num_dat]_{id, ood_ads, ood_cat or ood_both}.{test or val}.pkl file
 
