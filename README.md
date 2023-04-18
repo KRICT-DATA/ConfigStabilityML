@@ -7,8 +7,8 @@
 - matformer_mha.py (Matformer)
 
 2. Code for model training/prediction
-** All geometries are obtained from IS2RE data (available in OC20 dataset web-page)
-** For data labeling, "oc20_data_mapping.pkl" should exist (available in OC20 dataset web-page)
+** All geometries are obtained from IS2RE data (available in OC20 dataset web-page: https://dl.fbaipublicfiles.com/opencatalystproject/data/is2res_train_val_test_lmdbs.tar.gz)
+** For data labeling, "oc20_data_mapping.pkl" should exist (available in OC20 dataset web-page: https://dl.fbaipublicfiles.com/opencatalystproject/data/oc20_data_mapping.pkl)
 
 - script_train.py [model_type] [num_dat] [random_seed]; it will generate directory name of [model_type] under directory  RandomSeed_[random_seed], same as [path_pref] used in script_predict.py
 - script_predict.py [model_type] [is_test] [path_pref] [num_dat]; it will generate Predicted_[num_dat]_{id, ood_ads, ood_cat or ood_both}.{test or val}.pkl file
