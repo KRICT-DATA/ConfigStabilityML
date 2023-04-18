@@ -7,6 +7,7 @@
 - matformer_mha.py (Matformer)
 
 2. Code for model training/prediction
+
 ** All geometries are obtained from IS2RE data (available in OC20 dataset web-page: https://dl.fbaipublicfiles.com/opencatalystproject/data/is2res_train_val_test_lmdbs.tar.gz)
 
 ** For data labeling, "oc20_data_mapping.pkl" should exist (available in OC20 dataset web-page: https://dl.fbaipublicfiles.com/opencatalystproject/data/oc20_data_mapping.pkl)
