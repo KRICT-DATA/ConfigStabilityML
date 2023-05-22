@@ -36,6 +36,7 @@ def Validation(classifier,loader):
 		eij = inp[2].cuda()
 		y = inp[3].cuda()
 		agg_idx = inp[4].cuda()
+		sids = inp[5]
 
 		out = classifier(num,eij,idx1,idx2,agg_idx)
 
