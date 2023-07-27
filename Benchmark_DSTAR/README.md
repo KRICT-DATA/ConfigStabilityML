@@ -1,8 +1,12 @@
-# Benchmark with DSTAR representation
+## Benchmark with DSTAR representation
 
-** DSTAR representation can be found in [here](https://doi.org/10.1021/acs.jcim.1c00726). 
+### Diretory for comparision with DSTAR feature-based simple classifier model
 
-** Data and pre-trained results can be found in [here](https://doi.org/10.6084/m9.figshare.22649596.v4).
+- DSTAR representation can be found in [here](https://doi.org/10.1021/acs.jcim.1c00726). 
+
+- Data and pre-trained results can be found in [here](https://doi.org/10.6084/m9.figshare.22649596.v4).
+
+### Code Details
 
 1. Additional system information
 - xgboost == 1.7.5
