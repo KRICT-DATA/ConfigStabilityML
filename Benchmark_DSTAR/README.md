@@ -1,7 +1,8 @@
 # Benchmark with DSTAR representation
 
-** DSTAR representation can be found in [J. Chem. Inf. Model. 2021, 61, 9, 4514–4520 (https://doi.org/10.1021/acs.jcim.1c00726)]
-** Data and pre-trained results can be found in https://doi.org/10.6084/m9.figshare.22649596.v4
+** DSTAR representation can be found in [here](https://doi.org/10.1021/acs.jcim.1c00726). 
+
+** Data and pre-trained results can be found in [here](https://doi.org/10.6084/m9.figshare.22649596.v4).
 
 1. Additional system information
 - xgboost == 1.7.5
