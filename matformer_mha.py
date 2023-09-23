@@ -82,9 +82,9 @@ class MultiHeads(nn.Module):
         x_new = self.LN_fea(node_fea) + self.sigma(self.BN(mi))
         return x_new
 
-class Transformer(nn.Module):
+class Matformer(nn.Module):
     def __init__(self,dim_v0,dim_v1,dim_e0,dim_e1,n_attn,dim_h,n_head):
-        super(Transformer,self).__init__()
+        super(Matformer,self).__init__()
         self.v_emb = nn.Embedding(dim_v0,dim_v1)
         self.e_emb = nn.Sequential(nn.Linear(dim_e0,dim_e1),
                                    nn.Softplus(),
